@@ -1,0 +1,22 @@
+.navigation-bar{
+    background-color: rgb(175, 10, 10);
+
+
+    
+}
+.navbar-nav li a{
+    color: white;
+    font-family:SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif; 
+    font-size: small;
+    
+}
+ul{
+    gap: 20px;
+
+}
+
+
+
+    
+
+
