@@ -4,94 +4,253 @@
     box-sizing: border-box;
     padding: 0;
     text-decoration: none;
-    box-sizing: border-box;
+   
+}
+body{
+    background-color: #b80818;
 }
 /* navbar section */
-.navigation-bar{
-    background-color: rgb(168, 0, 0);
+ .navbar-brand img {
+	width: auto;
+	height: 40px;
+    margin-top: 7px;
+	border-radius: 50%;
+}
+.collapse {
+	position: relative;
+	top: -2px;
+}
+.navbar-nav {
+	margin-top: 7px;
+}
+.navbar-nav .nav-item {
+	margin-right: 15px;
+}
+.navbar-nav .nav-link {
+	font-weight: 200;
+	color: white;
+	font-size: 13px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 32px;
+	margin-top: 7px;
+}
+.nav-link {
+	margin-left: 10px !important;
+}
+.navbar-expand-lg .navbar-collapse {
+	justify-content: left;
+}
+.fixed-top {
+	background: #b80818;
+}
+nav .social-media a {
+	color: #fff;
+	font-size: 13px;
+	top: 15px;
+	position: relative;
+	margin-right: 30px;
+	float: right;
+}
+@media screen and (max-width:768px) {
+	.navbar-collapse {
+		position: absolute;
+		background: #b80818;
+		width: 100%;
+		left: 0px;
+		top: 65px;
+		padding-left: 20px;
+		padding-bottom: 70px;
+	}
+	.navbar-toggler {
+		float: right;
+		position: relative;
+		top: 10px;
+		font-size: 15px;
+	}
+	
+	}
 
 
-    
-}
-.navbar-nav li a{
-    color: white;
-    font-family:SF Pro Text,SF Pro Icon,Helvetica Neue,Helvetica,Arial,sans-serif; 
-    font-size: small;
-    
-}
-ul{
-    gap: 10px;
 
-}
-
-span{
-    margin-left: 22px;
-    display: flex;
-    gap: 10px;
-    
-}
 /* banner section */
-#home{
-    background-color: rgb(168, 0, 0);
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-   
+.banner-section {
+	margin-top: 80px;
+	padding-bottom: 80px;
+}
+.banner-detail {
+	margin-top: 15%;
+}
+.banner-detail h5 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	color: #ffda86;
+	font-weight: 400;
+	font-family: "Dancing Script", cursive;
+	
+}
+.banner-detail h1 {
+	margin-bottom: 30px;
+	font-family: "Poppins", sans-serif;
+	font-size: 100px;
+	color: white;
+	font-weight: bolder;
+	line-height: 90px;
+}
+.banner-detail .button-1 {
+	padding: 7px 20px;
+	font-size: 13px;
+	background: white;
+	border: none;
+	border-radius: 50px;
+	margin-top: 15px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500
+}
+.banner-detail .button-2 {
+	padding: 7px 20px;
+	font-size: 13px;
+	border-radius: 50px;
+	margin-top: 15px;
+	color: black;
+	background-color: #ffda86;
+	border: 1px solid #ffda86;
+	margin-left: 10px;
+	font-family :'Raleway', sans-serif;
+	font-weight: 500
+}
+.banner-img img {
+	margin-top: 30px;
+	width: 80%;
+	height: auto;
+	float: right;
+	padding-right: 50px;
+}
+@media screen and (max-width: 768px) {
+	.top-header {
+		height: auto;
+	}
+	.banner-detail h5 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.banner-detail h1 {
+		font-size: 75px;
+		line-height: 90px;
+		margin-bottom: 10px;
+	}
+	.banner-img img {
+		height: auto;
+		width: 100%;
+	}
+}
 
-}
-#col-1{
-    margin: 100px;
-    padding-top: 70px;
- 
-}
-#col-2{
-    margin-right: 70px;
-    padding-top: 70px;
-    
+@media screen and (max-width: 500px) {
+	.top-header {
+		height: auto;
+	}
+	.banner-detail {
+		margin-top: 15%;
+	}
+	.banner-detail h5 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.banner-detail h1 {
+		font-size: 75px;
+		line-height: 90px;
+		margin-bottom: 10px;
+	}
+	.banner-img img {
+		margin-top: 60px;
+		height: auto;
+		width: 100%;
+	}
 }
 
-h2{
-    font-family: "Dancing Script", serif;
-    color: rgb(247, 191, 93);
-    font-weight: bold;
-    
-}
-h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 1000;
-    font-style: normal;
-    font-size: 90px;
-    color: white;
-    
-}
-.button-1{
-    font-family:"Montserrat",sans-serif;
-    border-radius: 20px;
-    width: 90px;
-    font-size: 11px;
-    height: 27px;
-    font-weight: 60;
-    background: white;
-    border: 1px solid white;
 
-}
-.button-2{
-    font-family:"Montserrat",sans-serif;
-    border-radius: 20px;
-    width: 90px;
-    font-size: 11px;
-    height: 27px;
-    font-weight: 60;
-    background-color: rgb(247, 191, 93); 
-    border: 1px solid rgb(247, 191, 93);
+/* coupon section */
 
+ .top-banner {
+	border: 1px solid #00000024;
+	padding: 30px 5px 30px 20px;
+	background: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
 }
-/* .row img{
-    position: relative;
-    width: 100%;
-    padding-top: 60px;
-    margin-bottom: 125px;
-} */
+.top-banner img {
+	width: 100%;
+	margin-top: 10px;
+}
+.top-banner h2 {
+	font-size: 18px;
+	color: red;
+	font-family:"Dancing Script", cursive;
+}
+.top-banner h3 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #484848;
+}
+.top-banner p {
+	margin: 0px;
+	font-size: 15px;
+	color: black;
+}
+
+
+/* pizza menu section */
+.pizza-section{
+	color: #fff;
+}
+.pizza-section h4{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Poppins", sans-serif;
+}
+.pizza-section h6{
+	font-family: "Poppins", sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+}
+.banner{
+	margin: 10px 40px 1px 40px;
+}
+.col p{
+	font-size: 10px;
+}
+.card-body p{
+	font-size: 10px;
+}
+
+/* Other menu */
+ /*******Category List Category List Category List*******/
+ #section {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#section img {
+	width: 50%;
+}
+#section h5 {
+	font-weight: 500;
+	margin: 0px;
+	font-size: 20px;
+	font-family:"Dancing Script", cursive;
+	margin-bottom: 7px;
+}
+
+/* drinks section */
+
+
+
+
+
+
 
 
 

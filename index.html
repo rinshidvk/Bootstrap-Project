@@ -44,86 +44,389 @@
   </head>
 
   <body>
-    <div class="navigation-bar fixed-top">
-      <nav class="navbar navbar-expand-sm navbar-light justify-content-around">
-        <a href="" class="navbar-brand">
-          <img
-            src="./images/pizza-logo-vector-pizza-logo-template-vector-emblem-cafe-restaurant-food-delivery-service_950644-405.jpg.avif"
-            height="50px"
-            class="rounded-circle"
-            alt=""
-          />
-        </a>
-        <div>
-          <button
-            type="button"
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavbar"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Category</a></li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Menu List</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Contact Us</a>
-              </li>
-              <span>
-                <li class="nav-item">
-                  <a href="" class="nav-link"
-                    ><i
-                      class="fa-solid fa-cart-shopping"
-                      style="color: #ffffff"
-                    ></i
-                  ></a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link"
-                    ><i
-                      class="fa-solid fa-magnifying-glass"
-                      style="color: #ffffff"
-                    ></i
-                  ></a>
-                </li>
-              </span>
-            </ul>
+    <div class="container-fluid top-header">
+      <nav class="navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-4">
+              <a class="navbar-brand" href="#">
+                <img src="./images/pizza-logo-vector-pizza-logo-template-vector-emblem-cafe-restaurant-food-delivery-service_950644-405.jpg.avif">
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-2">
+              <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-6 social-media">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a href="#">
+                <i class="fa fa-search"></i>
+              </a>
+              <a href="#">
+                <i class="fa fa-cart-plus"></i>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
-    </div>
-    <div class="row container-fluid" id="home">
-    
-      <div class="col-sm-11 col-md w-100" id="col-1">
-        <h2>Best Choice</h2>
-        <h1>ITALIAN</h1>
-        <h1>PIZZA</h1>
-        <button class="button-1">Order Now</button>
-        <button class="button-2">Full Menu</button>
-
+      <!-- banner section -->
+  <div class="container-fluid" style="padding-bottom: 130px;">
+  <div class="banner-section">
+    <div class="row">
+      <div class="col-lg-1 col-12"></div>
+      <div class="col-lg-5 col-md-7 col-12">
+        <div class="banner-detail">
+          <h5>Best Choice</h5>
+          <h1>ITALIAN PIZZA</h1>
+          <div class="col-md-12">
+            <button class="btn button-1">Order Now</button>
+            <button class="btn button-2">Full Menu</button>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-11 col-md" id="col-2">
-        <img src="./images/lightX.PNG" width="400px"/>
-
+      <div class="col-lg-6 col-md-5 col-12">
+        <div class="banner-img">
+          <img src="./images/lightX.png">
+        </div>
       </div>
     </div>
-    <div class="container-fluid bg-info">
-      kjjhj
-      fjf
+  </div>
+</div>
+</div>
 
-      ff
-      w
-      
+
+<!-- carousel section -->
+ <div class="container-fluid pb-5">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/food-menu-delicious-pizza-web-banner-template_120329-1667 2.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/food-menu-delicious-pizza-web-banner-template_120329-3334 2.jpg" alt="" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="./images/food-menu-delicious-pizza-web-banner-template_120329-3345 2.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/food-menu-delicious-pizza-web-banner-template_120329-916 2.jpg" alt="" class="d-block w-100">
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+ </div>
+
+ </div>
+
+    <!-- coupon section -->
+<div class="container-fluid  main-section"  style="background-color: #b80818;">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="top-banner">
+          <div class="row ">
+            <div class="col-md-7">
+              <h2>SAVE 30%</h2>
+              <h3>HamBurger"S Combo</h3>
+              <p>Treat yourself to our special combo offer now!</p>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img src="./images/PIC/banner-1.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="top-banner">
+          <div class="row">
+            <div class="col-md-7">
+              <h2>SAVE 30%</h2>
+              <h3>Burg"S Combo</h3>
+              <p>Grab our irresistible combo offer today!</p>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img src="images/PIC/banner-2.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="top-banner">
+          <div class="row">
+            <div class="col-md-7">
+              <h2>SAVE 30%</h2>
+              <h3>Pizza"S Combo</h3>
+              <p> Get your favorite flavors together at a great price.</p>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img src="./images/PIC/banner-3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="top-banner">
+          <div class="row">
+            <div class="col-lg-7">
+              <h2>SAVE 30%</h2>
+              <h3>We Make The Best Restaurant!</h3>
+              <p>Why settle for one when you can have the perfect pair? Our special combo offers bring you the best flavors at unbeatable prices.</p>
+            </div>
+            <div class="col-lg-5">
+              <div>
+                <img src="./images/PIC/banner-4.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="top-banner">
+          <div class="row">
+            <div class="col-lg-7">
+              <h2>SAVE 30%</h2>
+              <h3>Why Taste Our Best Pizza Now?</h3>
+              <p>Why choose one when you can have it all? Our special combo offers bring together the best flavors in one delicious special deal!  </p>
+            </div>
+            <div class="col-lg-5">
+              <div>
+                <img src="./images/PIC/banner-5.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- pizza menu -->
+<div class="container-fluid pizza-section pt-4 pb-5">
+  <h4 class="d-flex justify-content-center align-item-center">Our Pizzas</h4>
+  <h6 class="d-flex justify-content-center align-item-center">Explore our great range of pizza recipes from the Italian pizza menu.</h6>
+  <div class="banner pt-5">
+    <div class="row gap-3" style="background-color:#b80818;">
+      <div class=" col-lg col-md-5 col-sm-12">
+        <div class="card text-start">
+          <img class="card-img-top" src="./images/margherita.90f9451fd66871fb6f9cf7d506053f18.1.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Momo Mia Pizza-Veg</h5>
+            <p class="card-text">Pizza with juicy Veg Momos placed on the crust and base topped with spicy Schezwan sauce, onions, capsicum, sweet corn, and 100% mozzarella cheese, baked to perfection! (PAN Per/Med 241 Kcal/100g)</p>
+            <div class="d-flex justify-content-between">
+              <div class="price">$60</div>
+              <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+            </div>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg col-md-5 col-sm-12">
+        <div class="card text-start">
+          <img class="card-img-top" src="./images/dhabe-da-keema.e90fcda2e1a021bf4ab4d55a9b4fe32a.1.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Dhabe Da Keema</h5>
+            <p class="card-text">Dhaba style chicken keema masala, with green chiili, crunchy onion with flavourful pan sauce, 100% mozzarella cheese & a generous drizzle of mint mayo. (PAN Per/Med-271 Kcal/100g |TnC-291 Kcal/100g)</p>
+            <div class="d-flex justify-content-between">
+              <div class="price">$60</div>
+              <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+            </div>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg col-md-5 col-sm-12">
+        <div class="card text-start">
+          <img class="card-img-top" src="./images/momo-mia-non-veg.379d4c86ba9551f194bfc68ad9d77bc5.1.jpg">
+          <div class="card-body">
+            <h5 class="card-title">Mia Pizza-Non Veg</h5>
+            <p class="card-text">Pizza with juicy Chicken Momos placed on the pizza crust and base topped with spicy Schezwan sauce, Schezwan meatballs, onion, capsicum, & 100% mozzarella cheese, baked to perfection! (PAN Per/Med 251 Kcal/100g)</p>
+            <div class="d-flex justify-content-between">
+              <div class="price">$60</div>
+              <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+            </div>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div>
+    </div>
+    <div class=" col-lg col-md-5 col-sm-12">
+      <div class="card text-start">
+        <img class="card-img-top" src="./images/veggie-feast.3777f9846c8e993276a25838b8737ea7.1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Veggie Feast</h5>
+          <p class="card-text">Herbed onion and Green Capsicum, spicy Schezwan sauce, Schezwan meatballs,juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce. (PAN Per/Med-269 Kcal/100g |TnC-274 Kcal/100g)</p>
+          <div class="d-flex justify-content-between">
+            <div class="price">$60</div>
+            <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row gap-3" style="background-color: #b80818;">
+    <div class=" col-lg col-md-5 col-sm-12">
+      <div class="card text-start">
+        <img class="card-img-top" src="./images/schezwan-margherita.4371d9483546db47a97c5503ccad0c2f.1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Schezwan Margherita</h5>
+          <p class="card-text">Your very own Margherita, now with a spicy twist! Loaded with our signature spicy schezwan sauce & 100% mozzarella cheese. (PAN Per/Med-300 Kcal/100g |TnC- 310 Kcal/100g)</p>
+          <div class="d-flex justify-content-between">
+            <div class="price">$60</div>
+            <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg col-md-5 col-sm-12">
+      <div class="card text-start">
+        <img class="card-img-top" src="./images/tandoori-paneer.4ef45717e972cf45b43c010e3cde5a22.1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Tandoori Paneer</h5>
+          <p class="card-text">Pizza with juicy Veg Momos placed on the crust and base topped with spicy Schezwan sauce, onions, capsicum, sweet corn, and 100% mozzarella cheese, baked to perfection! (PAN Per/Med 241 Kcal/100g)</p>
+          <div class="d-flex justify-content-between">
+            <div class="price">$60</div>
+            <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+    <div class=" col-lg col-md-5 col-sm-12">
+      <div class="card text-start">
+        <img class="card-img-top" src="./images/chatpata-tomato-onion-&-chilli-pan-personal.47f1c177432d17148978e2860a04ba81.1.jpg">
+        <div class="card-body">
+          <h5 class="card-title">Chatpata Tomato & Chilli</h5>
+          <p class="card-text">Pizza topped with a spicy tandoori sauce, juicy tomato, crunchy onion & green chilli and 100% mozzarella cheese, baked to perfection! for an extra zing and a flavourful dressing. (328 Kcal/100g)</p>
+          <div class="d-flex justify-content-between">
+            <div class="price">$60</div>
+            <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+  </div>
+  <div class=" col-lg col-md-5 col-sm-12">
+    <div class="card text-start">
+      <img class="card-img-top" src="./images/cheesy-spicy-delight-pan-personal.db100259b25697e9a79948aed047d1b8.1.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Cheesy Spicy Delight</h5>
+        <p class="card-text">Pizza topped with a spicy tandoori sauce, juicy tomato, crunchy onion & green chilli and 100% mozzarella cheese, baked to perfection! for an extra zing and a flavourful dressing. (328 Kcal/100g)</p>
+        <div class="d-flex justify-content-between">
+          <div class="price">$60</div>
+          <i class="fa-solid fa-plus" style="background-color:white; border: solid 1px #b80818;border-radius: 70px; padding: 5px; color: #b80818;"></i>
+        </div>
+        <a href="#" class="stretched-link"></a>
+      </div>
+    </div>
+</div>
+
+
+<!-- other menu section -->
+
+
+<div class="container-fluid" style="padding-top: 80px;">
+  <h4 class="d-flex justify-content-center align-item-center">We're More Than Just Pizza</h4>
+  <div class="container w-75" id="section">
+    <div class="row gap-3">
+      <div class="col-sm-12 col-md-5 col-lg ">
+        <img src="./images/PIC/c-1.png" alt="">
+        <h5>Burger</h5>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg ">
+        <img src="./images/PIC/c-2.png" alt="">
+        <h5>French Fries</h5>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg"  >
+        <img src="./images/PIC/c-4.png" alt="">
+        <h5>Sandwhich</h5>
+      </div>
+      <div class="col-sm-12 col-md-5 col-lg" >
+        <img src="./images/PIC/c-5.png" alt="">
+        <h5>Fried Chicken</h5>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center align-items-center">
+    <button class="btn p-2 bg-light" style="font-size: medium; color: #b80818;">EXPLORE MENU</button>
+  </div>
+</div>
+<!-- banner section 2 -->
+ <div class="container-fluid pt-5">
+  <div class="container bg-light w-75 p-0">
+    <img src="./images/PIC/We-Make-Great-Pizza-Home-Mixed-Media-Desktop.jpg" class="img-fluid" alt="">
+  </div>
+  </div>
+
+  <!-- banner section 3 -->
+   
+   
+    <div class="container rounded-5" style="background-color: #b80818; width: 100%;padding: 80px">
+      <div class="row align-items-center">
+        <div class="col-lg col-md-5 col-sm-12">
+          <img src="./images/PIC/meal-promo-overlay.webp" class="img-fluid" style="width: 500px;" alt="">
+        </div>
+        <div class="col-lg col-md-5 col-sm-12">
+          <h3 style="font-size:50px;margin-bottom: 5px;">TASTY MySLICE REWARDS®</h3>
+          <p style="font-size: 20px;">Get Insider Perks, Earn Rewards for Your Purchases, and Celebrate Your Birthday with a Free Pizza!</p>
+            <button class="btn p-2 bg-light" style="font-size: medium; color: #b80818;">EXPLORE MENU</button>
+        </div>
+      </div>
+      <div class="row align-items-center" style="margin-top: 50px;">
+        <div class="col-lg col-md-5 col-sm-12">
+          <h3 style="font-size:50px;margin-bottom: 5px;">WE DELIVER!</h3>
+          <p style="font-size: 20px;">We've made Take 'n' Bake even easier. Now order delivery right through our website. Delivery is available at participating locations.</p>
+          <button class="btn p-2 bg-light" style="font-size: medium; color: #b80818;">EXPLORE MENU</button>
+        </div>
+        <div class="col-lg col-md-5 col-sm-12">
+          <img src="./images/PIC/callout-rewards-delivery-cba-2-1.webp" class="img-fluid" style="width: 500px;" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer section -->
   
 
-    </div>
+
+
+
+
+    
 
   </body>
 </html>
