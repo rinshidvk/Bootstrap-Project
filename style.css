@@ -58,7 +58,7 @@ nav .social-media a {
 		background: #b80818;
 		width: 100%;
 		left: 0px;
-		top: 65px;
+		top: 50px;
 		padding-left: 20px;
 		padding-bottom: 70px;
 	}
@@ -127,47 +127,7 @@ nav .social-media a {
 	float: right;
 	padding-right: 50px;
 }
-/* @media screen and (max-width: 768px) {
-	.top-header {
-		height: auto;
-	}
-	.banner-detail h5 {
-		font-size: 30px;
-		margin-bottom: 10px;
-	}
-	.banner-detail h1 {
-		font-size: 75px;
-		line-height: 90px;
-		margin-bottom: 10px;
-	}
-	.banner-img img {
-		height: auto;
-		width: 100%;
-	}
-}
 
-@media screen and (max-width: 500px) {
-	.top-header {
-		height: auto;
-	}
-	.banner-detail {
-		margin-top: 15%;
-	}
-	.banner-detail h5 {
-		font-size: 30px;
-		margin-bottom: 10px;
-	}
-	.banner-detail h1 {
-		font-size: 75px;
-		line-height: 90px;
-		margin-bottom: 10px;
-	}
-	.banner-img img {
-		margin-top: 60px;
-		height: auto;
-		width: 100%;
-	}
-} */
 
 
 /* coupon section */
