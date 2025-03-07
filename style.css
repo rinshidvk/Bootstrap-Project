@@ -127,7 +127,7 @@ nav .social-media a {
 	float: right;
 	padding-right: 50px;
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 	.top-header {
 		height: auto;
 	}
@@ -167,7 +167,7 @@ nav .social-media a {
 		height: auto;
 		width: 100%;
 	}
-}
+} */
 
 
 /* coupon section */
