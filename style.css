@@ -108,7 +108,7 @@ nav .social-media a {
 	background-color: #ffda86;
 	border: 1px solid #ffda86;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
 	.banner-detail h1 {
 		font-family: "Poppins", sans-serif;
 		font-size: 90px;
